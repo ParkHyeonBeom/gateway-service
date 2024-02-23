@@ -1,4 +1,4 @@
 FROM openjdk:11-jdk-slim-stretch
-COPY ./target/gateway-service-0.0.1-SNAPSHOT.jar gateway-service-0.0.1-SNAPSHOT.jar
-CMD ["java", "-jar", "/gateway-service-0.0.1-SNAPSHOT.jar"]
+COPY ./target/gateway-1.0-SNAPSHOT.jar gateway-service-1.0-SNAPSHOT.jar
+CMD ["java", "-jar", "/gateway-1.0-SNAPSHOT.jar"]
 EXPOSE 8080
